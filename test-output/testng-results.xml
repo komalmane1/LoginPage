@@ -2,33 +2,33 @@
 <testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Login successful =https://www.saucedemo.com/inventory.html]]>
+      <![CDATA[Swag Labs Title = Swag Labs]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-02-07T15:19:17 IST" name="Default suite" finished-at="2025-02-07T15:19:26 IST" duration-ms="8796">
+  <suite started-at="2025-02-12T12:45:35 IST" name="Default suite" finished-at="2025-02-12T12:45:44 IST" duration-ms="9152">
     <groups>
-      <group name="retest">
-        <method signature="LoginPageTest.loginToApplicationTest()[pri:0, instance:testCases.LoginPageTest@2a3888c1]" name="loginToApplicationTest" class="testCases.LoginPageTest"/>
-      </group> <!-- retest -->
+      <group name="sanity">
+        <method signature="LoginPageTest.verifyTitleOfApplicationTest()[pri:0, instance:testCases.LoginPageTest@2a3888c1]" name="verifyTitleOfApplicationTest" class="testCases.LoginPageTest"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-02-07T15:19:17 IST" name="Default test" finished-at="2025-02-07T15:19:26 IST" duration-ms="8796">
+    <test started-at="2025-02-12T12:45:35 IST" name="Default test" finished-at="2025-02-12T12:45:44 IST" duration-ms="9152">
       <class name="testCases.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginPageTest@2a3888c1]" started-at="2025-02-07T15:19:17 IST" name="setUp" finished-at="2025-02-07T15:19:23 IST" duration-ms="5422" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.LoginPageTest@2a3888c1]" started-at="2025-02-12T12:45:35 IST" name="setUp" finished-at="2025-02-12T12:45:42 IST" duration-ms="7354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginToApplicationTest()[pri:0, instance:testCases.LoginPageTest@2a3888c1]" started-at="2025-02-07T15:19:23 IST" name="loginToApplicationTest" finished-at="2025-02-07T15:19:25 IST" duration-ms="2228" status="PASS">
+        <test-method signature="verifyTitleOfApplicationTest()[pri:0, instance:testCases.LoginPageTest@2a3888c1]" started-at="2025-02-12T12:45:42 IST" name="verifyTitleOfApplicationTest" finished-at="2025-02-12T12:45:44 IST" duration-ms="1468" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Login successful =https://www.saucedemo.com/inventory.html]]>
+              <![CDATA[Swag Labs Title = Swag Labs]]>
             </line>
           </reporter-output>
-        </test-method> <!-- loginToApplicationTest -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPageTest@2a3888c1]" started-at="2025-02-07T15:19:25 IST" name="closeBrowser" finished-at="2025-02-07T15:19:26 IST" duration-ms="1050" status="PASS">
+        </test-method> <!-- verifyTitleOfApplicationTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LoginPageTest@2a3888c1]" started-at="2025-02-12T12:45:44 IST" name="closeBrowser" finished-at="2025-02-12T12:45:44 IST" duration-ms="233" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginToApplicationTest status=SUCCESS method=LoginPageTest.loginToApplicationTest()[pri:0, instance:testCases.LoginPageTest@2a3888c1] output=Login successful =https://www.saucedemo.com/inventory.html]]]>
+                <![CDATA[[TestResult name=verifyTitleOfApplicationTest status=SUCCESS method=LoginPageTest.verifyTitleOfApplicationTest()[pri:0, instance:testCases.LoginPageTest@2a3888c1] output=Swag Labs Title = Swag Labs]]]>
               </value>
             </param>
           </params>
